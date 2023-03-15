@@ -1,6 +1,6 @@
 # DataMining2
 
-## Práctica 1
+## Práctica 1: reglas de Asociación 
 Usa la librería mlextend que nos permita solucionar todos los problemas relacionados con las reglas de asociación. Para ello tendremos que usar el algoritmo Apriori y una serie de métodos para obtener la distinta información que este genera. Replica los pasos de la sección II para responder a los apartados de la sección I.
 I) Usaremos la librería con el Dataset Estudiantes.csv que se ha proporcionado. Haz el preprocesamiento necesario para generar el DataFrame de entrada donde las 3 columnas de puntuación estén categorizadas en 4 clases diferentes con rangos de 25 puntos. Realiza el experimento descrito en la sección I creando una serie de experimentos para cada tipo de puntuación.
 Prueba al menos tres configuraciones de soporte y frecuencia para cada tipo de puntuación. (1 puntos)
@@ -21,6 +21,6 @@ antecesor. Dado un umbral mínimo devolver todas las reglas que cumplan con dich
 datos.
 
 
-## Práctica 2
+## Práctica 2 : patrones secuenciales
 Un supermercado cuenta con la información de las compras de uno de sus clientes durante casi 10.000 días. Partiendo de toda esta información, el supermercado ha decidido contratar a un Data Scientist para poder extraer toda la información posible de sus datos. Para ello se dispone del fichero “datos_compras” que tiene para cada uno de los casi 10.000 días, la información de los distintitos productos que ha comprado dicho cliente.
 Prueba al menos dos configuraciones de soporte. Para una de ellas, interpreta algunos de los patrones secuenciales que te resulten curiosos. Utiliza al menos dos representaciones gráficas para representar los patrones secuenciales obtenidos e interpretar los datos.
